@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/d8aec1cefc.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stilos.css" />
+    <title>Contenedores</title>
+  </head>
+  <body class="body">
+    <!-- Contenedores -->
+    <header class="header">
+      <div class="title-main">
+        <a class="home" href="#"><img width="200px" src="./image/logo-removebg-preview.png" alt=""></a>
+      </div>
+      <nav class="navbar">
+        <ul class="navbar__links">
+          <li class="links__link">
+            <a class="link__text" href="#services">Services</a>
+          </li>
+          <li class="links__link">
+            <a class="link__text" href="#about">About</a>
+          </li>
+          <li class="links__link">
+            <a class="link__text" href="#contact">Contact us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="main-container">
+        <section id="services" class="main-container__services">
+          <div class="title-guion">
+            <h2 class="services__title">Services</h2>
+            <img class="guion" src="./image/820-Photoroom.jpg" alt="">
+          </div>
+          <section class="services__cards">
+            <div class="card">
+              <div class="card__img">
+                <img class="imagen" src="./icons/facebook.png" alt="" />
+              </div>
+              <div class="card__title">
+                <h3>Title Card</h3>
+              </div>
+              <div class="card__description">
+                <p class="description__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Adipisci nisi dolores maxime soluta unde totam!
+                </p>
+              </div>
+              <div class="card__btn-show">
+                <button class="btn-show__show">Mostrar Mas</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__img">
+                <img class="imagen" src="./image/logo-removebg-preview.png" alt="" />
+              </div>
+              <div class="card__title">
+                <h3>Title Card</h3>
+              </div>
+              <div class="card__description">
+                <p class="description__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Adipisci nisi dolores maxime soluta unde totam!
+                </p>
+              </div>
+              <div class="card__btn-show">
+                <button class="btn-show__show">Mostrar Mas</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__img">
+                <img class="imagen" src="./image/descarga-removebg-preview.png" alt="" />
+              </div>
+              <div class="card__title">
+                <h3>Title Card</h3>
+              </div>
+              <div class="card__description">
+                <p class="description__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Adipisci nisi dolores maxime soluta unde totam!
+                </p>
+              </div>
+              <div class="card__btn-show">
+                <button class="btn-show__show">Mostrar Mas</button>
+              </div>
+            </div>
+          </section>
+        </section>
+        <section id="about" class="main-container__about">
+          <article class="about__article-main">
+            <div class="title-guion">
+              <h2 class="services__title">Acerca de</h2>
+              <img class="guion" src="./image/820-Photoroom.jpg" alt="">
+            </div>
+            <p class="aticle-main__text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Quibusdam nobis quaerat, possimus necessitatibus aperiam
+              laboriosam officia. Illum ea quos expedita. Lorem ipsum, dolor sit
+              amet consectetur adipisicing elit. Ex quidem commodi ea neque
+              accusantium! Explicabo incidunt blanditiis, saepe quasi
+              consectetur totam nemo voluptas debitis culpa laboriosam a
+              sapiente, iste earum!
+            </p>
+          </article>
+        </section>
+        <section id="contact" class="main-container__contact">
+          <h3 class="contact-title">Contáctanos</h3>
+          <form action="">
+            <ul class="list-form-name">
+              <li class="form-list">
+                <input
+                  class="input-text"
+                  type="text"
+                  placeholder="nombre"
+                  maxlength="20"
+                />
+              </li>
+              <li class="form-list">
+                <input
+                  class="input-text"
+                  type="text"
+                  placeholder="apellido"
+                  maxlength="20"
+                />
+              </li>
+            </ul>
+            <ul class="list-form-name">
+              <li class="form-list">
+                <input
+                  class="input-text"
+                  type="email"
+                  placeholder="email"
+                  maxlength="20"
+                />
+              </li>
+              <li class="form-list">
+                <input
+                  class="input-text"
+                  id="date"
+                  type="date"
+                  placeholder="edad"
+                  size="20"
+                />
+              </li>
+            </ul>
+            <ul class="list-form-name">
+              <li class="form-list">
+                <input
+                  class="input-text"
+                  autocomplete="tel"
+                  type="tel"
+                  placeholder="telefono"
+                  maxlength="20"
+                />
+              </li>
+              <li class="form-list">
+                <select class="select-form" name="" id="">
+                  <option selected disabled>selecciona un pais</option>
+                  <option value="colombia"><b>Colombia</b></option>
+                  <option value="chile"><b>Chile</b></option>
+                  <option value="mexico"><b>Mexico</b></option>
+                </select>
+              </li>
+            </ul>
+            <div class="genero">
+              <div class="masculino">
+                <input
+                  type="radio"
+                  value="Masculino"
+                  id="male"
+                  name="gender"
+                /><label id="male-text" for="male">Masculino</label>
+              </div>
+              <div class="femenino">
+                <input
+                  type="radio"
+                  value="Femenino"
+                  id="female"
+                  name="gender"
+                /><label id="female-text" for="female">Femenino</label>
+              </div>
+              <div class="otro">
+                <input
+                  type="radio"
+                  value="Otro"
+                  id="other"
+                  name="gender"
+                /><label id="other-text" for="other">Otro</label>
+              </div>
+            </div>
+            <div class="list-form-name">
+              <textarea
+                placeholder="Escribe tu mensaje hasta 200 palabras"
+                maxlength="900"
+              ></textarea>
+            </div>
+            <div class="btn-enviar">
+              <input
+                class="btn"
+                type="button"
+                placeholder="Enviar"
+                value="Enviar"
+              />
+            </div>
+          </form>
+        </section>
+      </section>
+      <aside class="aside">
+        <iframe
+          width="300"
+          height="200"
+          src="https://www.youtube.com/embed/AsPJWXfF378?si=iJqb4EGSLxa-KJu1"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="300"
+          height="200"
+          src="https://www.youtube.com/embed/mcHGY5fxFCI?si=JbcCABuc-i-5VNzE"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="300"
+          height="200"
+          src="https://www.youtube.com/embed/UPrkC1LdlLY?si=X64fcWQFI8-4U15P"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </aside>
+    </main>
+    <footer class="footer">
+      <div class="info-page">
+        <h4>@copy ritgh 2024</h4>
+        <p>direccion av siempre viva</p>
+        <p>1233425</p>
+        <ul class="container-social-media">
+          <li class="container-social-media__social-media">
+            <a class="icons-social-media" href=""
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </li>
+          <li class="container-social-media__social-media">
+            <a class="icons-social-media" href="">
+              <i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+          <li class="container-social-media__social-media">
+            <a class="icons-social-media" href="">
+              <i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+          <li class="img-fb">
+            <a class="img-fb__a" href=""
+              ><img class="img-fb__link" src="./icons/facebook (2).png" alt=""
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="ubication">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d28871.893449289673!2d-75.61068149958103!3d6.164379727068717!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1723751493557!5m2!1ses!2sco"
+          width="200"
+          height="125"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </footer>
+  </body>
+</html>
